@@ -34,7 +34,7 @@ class TokoElektronik {
 void tampilkanBarang() {
     ifstream file("gudang.txt");
 
-    cout << "===== DATA BARANG DI GUDANG =====" << endl;
+    cout << "\n===== DATA BARANG DI GUDANG =====" << endl;
 
     if (!file) {
         cout << "File belum tersedia." << endl;
@@ -68,7 +68,7 @@ void tambahBarang() {
 
     file.close();
 
-    cout << "Barang berhasil ditambahkan.\n";
+    cout << "Barang berhasil ditambahkan." << endl;
 }
 
 void updateBarang() {
